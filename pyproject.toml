@@ -2,12 +2,10 @@
 name = "icai-bos-mcp"
 version = "0.1.0"
 requires-python = ">=3.13"
-dependencies = [
-           "workers-runtime-sdk",
-           ]
+dependencies = []
 
 [dependency-groups]
 dev = [
         "workers-py",
-       
+        "workers-runtime-sdk",
 ]
